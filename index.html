@@ -18,9 +18,43 @@
         body {
             font-family: Quicksand;
         }
+
+        .container {
+            display: grid;
+            place-items: center;
+        }
+
+        .menu{
+            width: 300px;
+            display: grid;
+            align-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .menu a {
+            border: 1px solid var(--hospital-green);
+            border-radius: 20px;
+            margin-bottom: 24px;
+            background-color: var(--whi);
+            text-decoration: none;
+            color: var(--hospital-green);
+        }
+
     </style>
 </head>
 <body>
+    
+    <div class="container">
+        <div class="menu">
+            <h1>Menú clases</h1>
+            <a href="/clase1.html">Clase 1 - new password</a>
+            <a href="/clase2.html">Clase 2 - email send</a>
+            <a href="/clase3.html">Clase 3 - login</a>
+            <a href="/clase4.html">Clase 4 - create account</a>
+            <a href="/clase5.html">Clase 5 - edit account</a>
+        </div>
+    </div>
     
 </body>
 </html>
